@@ -61,23 +61,11 @@ const generateHtml = (link) => `
       height: 100vh;
       border: none;
     }
-    #home-button {
-      position: fixed;
-      top: 10px;
-      left: 10px;
-      background-color: rgba(0, 0, 0, 0.5);
-      color: white;
-      padding: 10px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 16px;
-    }
   </style>
 </head>
 <body>
 
-<a id="home-button" href="/">Home</a>
-<iframe src="${link}"></iframe>
+<iframe src="${link}" allowfullscreen></iframe>
 
 </body>
 </html>
